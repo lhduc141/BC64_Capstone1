@@ -269,6 +269,17 @@ button.navbar-toggler.collapsed .icon-close {
     display: none;
 }
 
+.toggler-bar{
+    top: 28px;
+    display: block;
+    left: 700px;
+}
+.nav-right{
+    display: flex;
+}
+.nav-right button{
+    margin-top: 7px;
+}
 
 
 
@@ -509,6 +520,68 @@ button.navbar-toggler.collapsed .icon-close {
 
     color: black;
 }
+.nav-moon .fa-sun{
+    display: none;
+}
+.nav-item .fa-moon{
+    display: block;
+}
+/* Dark mode  */
+.dark#body{
+    background-color: #151515;
+}
+.dark .fa-moon{
+    display: none;
+}
+.dark .fa-sun{
+    display: block;
+    color: #404040;
+}
+
+.dark .header, 
+.dark .header_inner, 
+.dark .header .container{
+    background-color: #151515;
+}
+.dark .nav-item a{
+    color: #ddd;
+} 
+.dark .fa-search{
+    background-color: #222;
+}
+
+.dark .title{
+    color: white;
+}
+.dark .txt-content,
+.dark .features_inner p{
+    color: rgb(175, 175, 175);
+}
+.dark .readMore{
+    color: #d7dddd;
+}
+
+.dark .features{
+    background-color: #222;
+}
+.dark .features_inner{
+    background-color: #151515;
+}
+.dark .features_inner:hover{
+    background-color: #222;
+}
+.dark .features_inner h4 a
+{
+    color: #d7dddd;
+}
+
+.dark .services_archieve i{
+    background-color: #222;
+}
+.dark .services_archieve li{
+    color: rgb(221, 221, 221);
+}
+  
 
 /* space for header fixed  --------------------------------------------------------------------------------------------*/
 .header-fixed-space {
