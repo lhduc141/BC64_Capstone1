@@ -1021,7 +1021,7 @@ button.navbar-toggler.collapsed .icon-close {
 .w3l-pricing-7-main .pricing-sec-7 {
     margin: 0 5% auto;
     margin-top: 0;
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
@@ -1029,7 +1029,7 @@ button.navbar-toggler.collapsed .icon-close {
 }
 
 .w3l-pricing-7-main .pricing-gd-left {
-    background: var(--bg-color);
+
     border-radius: 6px;
     align-self: center;
     padding-right: 0;
@@ -1593,13 +1593,13 @@ p {
     padding: 0;
     line-height: 36px;
     border-radius: 50px;
-    transition: 0.3s ease-out;
+    transition: 1s ease-out;
 }
 
 .w3l-footer #movetop:hover {
     transform: translate3d(0, -5px, 0);
     -webkit-transform: translate3d(0, -5px, 0);
-    transition: 0.3s ease-out;
+    transition: 1s ease-out;
 }
 
 .w3l-footer .midd-footer-28 {
