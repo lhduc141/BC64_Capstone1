@@ -461,49 +461,54 @@
   </section>
 
   <!-- Video Popup section --->
+  <section class="Video">
+    <div class="container">
+      <div class="aboutInner">
+        <h6 class="sub-title">BETTER PET NUTRITION.
+        </h6>
+        <h3 class="title">The Finest Fresh Food And All Your Pet Needs.
+        </h3>
+        <p class="my-3 txt-content">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet elit consec tetur adipisi
+          elit. Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Iure voluptatibus explicabo officia.
+        </p>
+      </div>
 
-  <section>
+      <div class="VideoPopup">
+        <!-- Button trigger modal -->
+        <div class="video__img">
+          <img src="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner2.jpg"
+            class="img-fluid radius-image video-popup-image" alt="video-popup" />
+        </div>
+
+        <div class="btn btn__button ">
+          <button type="button" class="btn" data-toggle="modal" data-target="#modelId">
+            <span class=" pulse">
+              <i class="fa fa-play"></i>
+            </span>
+          </button>
+        </div>
+
+      </div>
+
+    </div>
+
   </section>
 
-  <section class="w3l-index5" id="about">
-    <div class="new-block py-5">
-      <div class="container py-lg-5 HPVideoPopup">
-        <div class="middle-section text-center">
-          <div class="section-width">
-            <h6 class="sub-title text-center"> BETTER PET NUTRITION.
-              .</h6>
-            <h3 class="hny-title"> The finest fresh food and all your pet needs.</h3>
-            <p class="mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit
-              amet elit consec tetur adipisi elit. <br> Lorem ipsum dolor sit amet elit consec tetur adipisi
-              elit. Iure voluptatibus explicabo officia.</p>
-          </div>
-          <div class="history-info mt-5">
-            <div class="position-relative">
 
-              <img src="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/banner2.jpg"
-                class="img-fluid radius-image video-popup-image" alt="video-popup" />
-
-              <a href="#small-dialog" class="popup-with-zoom-anim play-view text-center position-absolute">
-                <span class="video-play-icon">
-                  <i class="fa fa-play-circle"></i> </span>
-              </a>
-
-              <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
-              <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
-                <iframe src="https://player.vimeo.com/video/101587706" frameborder="0" allow="autoplay; fullscreen"
-                  allowfullscreen></iframe>
-              </div>
-            </div>
-          </div>
+  <!-- Modal -->
+  <!-- Modal -->
+  <div class="modal fade " id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+    <div class="modal-dialog d-flex justify-content-center align-items-center h-100" role="document">
+      <div class="modal-content">
+        <!-- dialog itself, mfp-hide class is required to make dialog hidden -->
+        <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+          <iframe src="https://player.vimeo.com/video/101587706" frameborder="0" allow="autoplay; fullscreen"
+            allowfullscreen></iframe>
         </div>
       </div>
     </div>
-  </section>
-
-  <section>
-  </section>
-
-
+  </div>
   <!-- //Video Popup section --->
 
 
@@ -715,7 +720,7 @@
 
                 <input class="form-control" type="email" placeholder="Enter your email..." name="Email" required="">
 
-                <button class="btn btn-style btn-primary" type="submit">Subscribe</button>
+                <button class="btn btn-style btn-primary " type="submit">Subscribe</button>
               </div>
             </form>
           </div>
@@ -937,7 +942,15 @@
         },
       },
     });
+
+    $('#exampleModal').on('show.bs.modal', event => {
+      var button = $(event.relatedTarget);
+      var modal = $(this);
+      // Use above variables to manipulate the DOM
+
+    });
   </script>
+
 
   <script src="./js/owl.carousel.js"></script>
   <script src="./js/owl.carousel.min.js"></script>
