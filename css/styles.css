@@ -291,6 +291,7 @@ button.navbar-toggler.collapsed .icon-close {
     border-radius: 10px;
     padding-top: 1.6rem;
     padding-right: 6.5rem;
+    min-width: 13rem;
 }
 
 .dropdown-menu::before {
@@ -595,7 +596,56 @@ button.navbar-toggler.collapsed .icon-close {
 .dark .services_archieve li {
     color: rgb(221, 221, 221);
 }
+.dark .hny-title{
+    color: rgb(221, 221, 221);
+}
+.dark .testimonial blockquote q{
+    color: rgb(105, 105, 105);
+}
+.dark .peopl {
+    color: white;
+}
+.dark .subscribe p{
+    color: rgb(175, 175, 175);
+}
+.subscribe {
+    font-size: 19.2px;
+}
 
+.dark .dropdown-menu{
+    background-color: #151515;
+    border-radius: 1px solid #333;
+} 
+.dark .dropdown-menu::before{
+    background-color: rgb(21, 21, 21);
+    border: 1px solid #333;
+    border-right: none;
+    border-bottom: none;
+}
+.dark .dropdown-item:hover{
+    color: rgb(24, 154, 70);
+}
+
+ .owl-dot.active{
+    color: #189A46;
+}
+.testimonial-width .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 2px;
+    background: #d8d8d8;
+    display: block;
+    transition: opacity .2s ease;
+    border-radius: 25px;
+    position: relative;
+}
+
+.testimonial-width .owl-dots .owl-dot.active span,
+.testimonial-width .owl-dots .owl-dot:hover span {
+    background: var(--primary-color);
+    width: 30px;
+    height: 10px;
+}
 
 /* space for header fixed  --------------------------------------------------------------------------------------------*/
 .header-fixed-space {
@@ -918,7 +968,6 @@ button.navbar-toggler.collapsed .icon-close {
     background-color: #189a46;
     padding-top: 4.8rem;
     padding-bottom: 4.8rem;
-    margin-bottom: 100px;
 }
 
 .number .container {
@@ -1245,31 +1294,21 @@ li {
 /* End video  */
 
 /*--/testimonials--*/
-.owl-two.owl-carousel.owl-theme .owl-dots {
+.owl-two.owl-carousel.owl-theme .owl-dots{
+    width: 100%;
     position: inherit;
-    left: 0px;
-    right: 0px;
-    bottom: 30px;
-    margin-top: 80px;
-}
-
-.owl-two.owl-carousel.owl-theme .owl-dots .owl-dot span {
-    width: 10px;
-    height: 10px;
-    margin: 5px 2px;
-    background: #d8d8d8;
     display: block;
-    -webkit-backface-visibility: visible;
-    transition: opacity .2s ease;
-    border-radius: 25px;
-    position: relative;
+    align-items: center;
+
+    transition: all 0.5s ease-in-out;
 }
 
-.owl-two.owl-carousel.owl-theme .owl-dots .owl-dot.active span,
+.owl-two.owl-carousel.owl-theme .owl-dots .owl-dot.active span, 
 .owl-two.owl-carousel.owl-theme .owl-dots .owl-dot:hover span {
-    background: var(--primary-color);
-    width: 30px;
+    color: #189a46;
+    background: #189a46;
     height: 10px;
+    width: 30px;
 }
 
 .w3l-clients {
