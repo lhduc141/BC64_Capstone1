@@ -572,6 +572,9 @@ button.navbar-toggler.collapsed .icon-close {
 .dark .readMore {
     color: #d7dddd;
 }
+.dark .readMore:hover{
+    color: #189A46;
+}
 
 .dark .features {
     background-color: #222;
@@ -645,6 +648,10 @@ button.navbar-toggler.collapsed .icon-close {
     background: var(--primary-color);
     width: 30px;
     height: 10px;
+}
+
+.dark .features_head:hover{
+    color: #189A46;
 }
 
 /* space for header fixed  --------------------------------------------------------------------------------------------*/
